@@ -28,6 +28,12 @@
     background: rgb(243, 2, 0);
     transition: 0.2s;
 }
+.section-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
 
 /* Navbar Styles */
 .navbar{
@@ -139,12 +145,7 @@
     margin: 0 auto;
     margin-top: 80px;
 }
-.vision-section-title{
-    color: rgb(14, 14, 14);
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-}
+
 .vision-section-description{
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
@@ -232,3 +233,127 @@
     font-weight: 400;
     line-height: 24px;
 }
+/* Opinion Section Styles */
+.opinion-section{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.opinion-questions-container{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+    margin-top: 24px;
+}
+.question-heading{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.question-heading h5{
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.question-1{
+   
+    background: rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.question{
+    width: 85%;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.question h5{
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.option{
+    width: 15%;
+    padding: 14px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    text-align: center;
+}
+
+.option button{
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 10px 14px 10px 14px;
+}
+.option select{
+    border: none;
+    background: rgb(198, 228, 214);
+}
+/* News Section Styles */
+.news-section{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.news-section-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.news-card-all{
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.news-card-img img{
+    border-radius: 24px;
+}
+.news-section-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 0;
+}
+.news-card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 14px;
+}
+.news-card-time{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 15px 0;
+}
+.news-card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.news-card-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* Donate Section Start */
