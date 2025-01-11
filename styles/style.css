@@ -78,6 +78,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 80px 50px;
+    margin-top: 20px;
 }
 .hero-section-subtitle{
     color: rgba(14, 14, 14, 0.5);
@@ -128,6 +129,105 @@
 }
 .pillar-card-description{
     color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* Vision section styles */
+.vision-section{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.vision-section-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.vision-section-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin: 25px 0;
+}
+.vision-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.vision-card{
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 32px;
+    width: 100%;
+}
+.vision-card:hover{
+    background: rgb(251, 239, 239);
+    transition: 0.4s;
+}
+.card-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+.card-2{
+    background: rgb(198, 228, 214);
+}
+.card-3{
+    background: rgb(247, 235, 207);
+}
+.vision-card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 25px 0 15px;
+}
+.vision-card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+.vision-card-btn1{
+   background: rgb(84, 144, 245);
+}
+.vision-card-btn2{
+    background: rgb(9, 161, 92);
+}
+.vision-card-btn3{
+    background: rgb(255, 194, 57);
+}
+
+.quote-section{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255); 
+    padding: 48px 24px 48px 24px;
+    margin-top: 32px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 25px 25px;
+
+}
+.quote-section-description{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.quote-section-name{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 15px 0 12px;
+}
+.quote-section-title{
+    color: rgba(14, 14, 14, 0.6);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
