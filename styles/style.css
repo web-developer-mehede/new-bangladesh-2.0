@@ -13,6 +13,20 @@
 .primary-bg{
     background: rgb(245, 245, 245);
 }
+.btn-primary{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 17px 34px 17px 34px;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background: rgb(243, 2, 0);
+}
 
 /* Navbar Styles */
 .navbar{
@@ -42,3 +56,37 @@
     padding: 15px 30px 15px 30px;
     cursor: pointer;
 }
+.navbar-btn:hover{
+    background: rgb(243, 2, 0);
+    color: white;
+    border: 1px solid white;
+}
+/* Hero Section Styles */
+.hero-section-container{
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+
+    
+}
+.hero-section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+}
+.hero-section-subtitle{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.hero-section-title{
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    margin: 20px 0;
+}
+
